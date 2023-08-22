@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.roof img{
+    width: 100%;
+}
+
+.boot img{
+    width: 100%;
+}
+.kolch img{
+    width: 100%;
+}
+.ind1 img{
+    width: 100%;
+}
+
+form{
+    display: grid;
+}
+  .inform{
+    display: flex;
+    justify-content: space-between;
+  }
+.kolch{
+    margin: 0;
+}
+  .pack1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    display: grid;
+  }
+  .pack1 img{
+    width: 100%;
+  }
+  .section{
+    padding: 10px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  .pp1{
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+.pp2{
+    
+      font-weight: 600;
+      font-size: 23px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: white;
+}
+.left p{
+    margin-bottom: 15px;
+}
+.right p{
+    margin-bottom: 15px;
+}
+
+.btn1{
+    font-size: .875rem;
+    font-weight: 600;
+    padding: 4px 3px;
+    border-radius: 6px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float:right;
+    margin-right: 20px;
+}
+
+.btn1 img{
+    width: 40px;
+    
+}
+.btn1 p{
+    margin-left: 15px;
+}
+
+.botn{
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+
+/* coc */
+.insid{
+    color: rgb(130, 130, 130);
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cc1 img{
+    width: 100%;
+
+}
+.vis img{
+    width: 150px;
+}
+.btn2{
+    width: 100%;
+    margin: 20px 0px;
+    color: #ffffff;
+    background-color: black !important;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.in2{
+    display: flex;
+    
+}
+input{
+    margin-top: 10px;
+    border: 1px solid #bfbdbd !important;
+border-radius: .25rem;
+
+display: block;
+font-size: 14px;
+font-weight: 400;
+height: 35px;
+
+
+transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+margin-bottom: 17px;
+width: 100%;
+outline: none;
+color: #585858;
+padding: 6px 12px 7px;
+}
+input:focus{
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.mm{
+    margin-right: 15px;
+}
+
+
+
+
+
+.section3{
+    padding: 10px 20px;
+}
+
+
+
+.section{
+    /* padding: 1.5rem;
+    margin-top: 0px;
+    margin: 0 20px;
+    
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    margin-bottom: 60px; */
+    
+}
+
+.exp{
+    display: flex;
+}
+.cfifi{
+    width: 50%;
+}
+.ccimg{
+    width: 100%;
+}
+
+
+
+.pp3{
+    font-weight: 600;
+    margin-bottom: 40px;
+    border: 1px rgb(255, 236, 92) solid;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+
+.forma{
+    margin: 15px;
+    padding: 15px;
+    border: 2px rgb(209, 209, 209) solid;
+    border-radius: 5px;
+}
+
+.forma p{
+    font-size: 13px;
+    font-weight: 600;
+}  
+
+.pp6{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.p1p{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.p2p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(64, 64, 64);
+}
+
+
+
+.inps{
+    width: 180px;
+    margin: 0 auto;
+}
+
+.smform{
+    display: grid;
+    justify-content: center;
+}
+.smform button{
+    justify-self: center;
+    margin: 30px 0;
+}

